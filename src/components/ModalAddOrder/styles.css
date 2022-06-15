@@ -1,0 +1,86 @@
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.container-modal-Add{
+  background-color: rgb(255, 255, 255);
+  padding: 20px 40px 50px 40px;
+  width: 26%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.navCard{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-Adm{
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit{
+  width: 50%;
+}
+h3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 3px  rgb(149, 147, 147);
+  padding: 10px 10px;
+}
+
+.inputAdm{
+  all: unset;
+  border-bottom: 2px solid rgb(108, 105, 105);
+  border-right: 2px solid rgb(103, 102, 102);
+  box-shadow: 2px 2px 3px  rgb(149, 147, 147);
+  padding: 10px;
+}
+
+select{
+  all: unset;
+  box-sizing: border-box;
+  padding: 8px;
+  box-shadow: 2px 2px 5px rgb(123, 123, 123);
+}
+.afst{
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 577px) {
+  .afst{
+    font-size: 0.95rem;
+    padding: 8px;
+  }
+  .container-modal-Add{
+    min-width: 60%;
+  }
+  
+}
+
+@media (min-width: 578px) and (max-width: 769px) {
+  .container-modal-Add{
+    min-width: 50%;
+  }
+  
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-modal-Add{
+    min-width: 40%;
+  }
+}

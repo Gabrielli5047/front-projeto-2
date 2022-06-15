@@ -1,0 +1,81 @@
+.main_app_pedido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+}
+.pagination{
+    display: flex;
+    margin-top: 25px;
+    padding: 0px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .afst{
+    margin-top: 10px;
+  }
+  .pedidoPrincipal{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    padding: 18px 36px;
+    min-width: 70%;
+    max-width: 100%;
+    border-right: 1px solid grey;
+    border-radius: 20px;
+    border-bottom: 1px solid grey;
+    box-shadow: 2px 2px 5px rgb(99, 97, 97);
+    margin-left: -35px;
+  }
+
+  .ul-pedido{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-pedidos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -15px;
+  }
+
+  .buton0{
+    font-size: 1rem;
+  }
+
+  .btn{
+    font-size: 1.2rem;
+  }
+  
+  @media only screen and (max-width: 577px) {
+    
+    .pedidoPrincipal{
+      font-size: 0.8rem;
+      min-width: 130%;
+    }
+
+    .btn{
+      font-size: 1.0rem;
+    }
+  }
+  
+  @media (min-width: 578px) and (max-width: 769px) {
+    .pedidoPrincipal{
+      font-size: 0.8rem;
+      min-width: 120%;
+    }
+
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .pedidoPrincipal{
+      font-size: 0.8rem;
+      min-width: 100%;
+    }
+  }

@@ -1,0 +1,76 @@
+.sidebar{
+    box-shadow: 5px 1px 7px rgb(30, 29, 29);
+    background: linear-gradient(to right, rgb(200, 42, 42), rgb(249, 27, 27), rgb(235, 39, 39));
+    min-width: 15%;
+    height: 90vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .header-new{
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+  }
+  
+  .logout{
+    position: absolute;
+    bottom: 50px;
+  }
+
+  @media only screen and (max-width: 577px) {
+    .sidebar{
+      min-width: 40%;
+      height: 90vh;
+    }
+    .active{
+      font-size: 0.80rem;
+    }
+    .span-header{
+      font-size: 0.80rem;
+    }
+    .img-tamanho{
+      width: 20px;
+      height: 19px;
+    }
+    .icon-add{
+      display: none;
+    }
+  }
+
+  @media (min-width: 578px) and (max-width: 769px) {
+    .sidebar{
+      min-width: 30%;
+      height: 90vh;
+    }
+    .active{
+      font-size: 1rem;
+    }
+    .span-header{
+      font-size: 1rem;
+    }
+    .img-tamanho{
+      width: 25px;
+      height: 25px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sidebar{
+    min-width: 25%;
+    height: 90vh;
+  }
+  .active{
+    font-size: 1.1rem;
+  }
+  .span-header{
+    font-size: 1.1rem;
+  }
+  .img-tamanho{
+    width: 25px;
+    height: 25px;
+  }
+}

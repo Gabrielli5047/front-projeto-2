@@ -1,0 +1,252 @@
+.tela_login {
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(to top, rgb(255, 0, 0), rgb(255, 68, 68), rgb(238, 90, 90));
+}
+
+.card_direita {
+  padding: 1rem;
+  border-radius: 30px;
+  width: 290px;
+  height: 500px;
+  
+}
+
+.card_direita_titulo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 130%;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: white;
+  width: 100%;
+}
+
+.card_direita_div_botao {
+  margin-top: 2.6rem;
+  width: 90%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  color: white;
+}
+
+.input {
+  all: unset;
+  font-size: 1.3rem;
+  background-color: none;
+}
+
+.input::placeholder {
+  font-size: 1.2rem;
+  text-overflow: ellipsis;
+  color: white;
+  padding: 7px 35px;
+}
+
+.icon{
+  width: 35px;
+  top: 10px;
+  left: 2px;
+  position: absolute;
+}
+
+.icon-olho{
+  width: 30px;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_login {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 1.0rem 2.5rem  ;
+}
+
+.email_login {
+  margin-bottom: 1.5rem;
+}
+
+.form_label_login {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 20px;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.card_direita_botao_login {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding: 6px 90px;
+  display: flex;
+  background-color: rgba(0, 0, 0);
+  color: white;
+}
+
+.imgLogin{
+  border-top-right-radius: 250px;
+  border-bottom-left-radius: 250px;
+  width: 60%;
+}
+
+.tlogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.8);
+  gap: 25px;
+}
+
+@media only screen and (max-width: 577px) {
+  .imgLogin{
+    display: none;
+  }
+  .tlogin{
+    width: 80%;
+  }
+  .form_input{
+    display: flex;
+    justify-content: center;
+  }
+  .input_login {
+    width: 50%;
+    font-size: 1.1rem;
+    margin-left: 15px;
+  }
+  .card_direita_div_botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .icon-olho{
+    width: 25px;
+    top: 15px;
+    right: 50px;
+  }
+  .icon{
+    width: 28px;
+    top: 15px;
+    left: 15px;
+  }
+  .card_direita_botao_login {
+    font-size: 1.2rem;
+    padding: 6px 50px;
+    background-color: rgba(0, 0, 0);
+  }
+}
+
+@media (min-width: 578px) and (max-width: 769px) {
+  .imgLogin{
+    display: none;
+  }
+  .tlogin{
+    width: 80%;
+  }
+  .form_input{
+    display: flex;
+    justify-content: center;
+  }
+  .input_login {
+    width: 90%;
+    font-size: 1.1rem;
+    margin-left: 15px;
+  }
+  .card_direita_div_botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .icon-olho{
+    width: 25px;
+    top: 15px;
+    right: -65px;
+  }
+  .icon{
+    width: 28px;
+    top: 15px;
+    left: 15px;
+  }
+  .card_direita_botao_login {
+    font-size: 1.3rem;
+    padding: 6px 60px;
+  }
+  .card_direita {
+    margin-left: -95px;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .imgLogin{
+    max-width: 50%;
+    margin-left: -58px;
+    margin-right: 50px;
+  }
+  .tlogin{
+    width: 80%;
+  }
+  .form_input{
+    display: flex;
+    justify-content: center;
+  }
+  .input_login {
+    width: 90%;
+    font-size: 1.1rem;
+    margin-left: 15px;
+  }
+  .card_direita_div_botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .icon-olho{
+    width: 25px;
+    top: 15px;
+    right: -65px;
+  }
+  .icon{
+    width: 28px;
+    top: 15px;
+    left: 15px;
+  }
+  .card_direita_botao_login {
+    font-size: 1.3rem;
+    padding: 6px 60px;
+  }
+  .card_direita {
+    margin-left: -95px;
+  }
+
+  
+}

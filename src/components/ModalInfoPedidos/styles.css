@@ -1,0 +1,98 @@
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.container-modal-pedido{
+  background-color: rgb(255, 255, 255);
+  padding: 20px 40px 50px 40px;
+  min-width: 35%;
+  max-width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.modalEditPedido{
+  min-height: 10%;
+}
+
+.navCardPedido{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 10px;
+  border-right: 1px solid rgb(125, 125, 125);
+  border-bottom: 1px solid rgb(125, 125, 125);
+  box-shadow: 2px 2px 4px rgb(159, 157, 157);
+}
+
+.info{
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.infoB{
+  width: 100%;
+ text-align: justify;
+}
+
+.stat{
+  display: flex;
+  justify-content: space-between;
+}
+
+#status{
+  all: unset;
+  box-sizing: border-box;
+  border: 1px solid rgb(113, 108, 108);
+  box-shadow: 2px 3px 2px rgb(63, 57, 57);
+  padding: 3px 10px;
+  text-align: center;
+}
+
+.info-h2{
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 1px 25px;
+  color: rgb(255, 255, 255);
+}
+.infoStatuss{
+  min-width: 100%;
+}
+
+@media only screen and (max-width: 577px) {
+  .container-modal-pedido{
+    min-width: 60%;
+  }
+  .info{
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 578px) and (max-width: 769px) {
+  .container-modal-pedido{
+    min-width: 70%;
+  }
+  .info{
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-modal-pedido{
+    min-width: 60%;
+  }
+  .info{
+    font-size: 1.1rem;
+  }
+
+}

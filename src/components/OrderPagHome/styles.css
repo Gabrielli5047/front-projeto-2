@@ -1,0 +1,53 @@
+
+.pedido{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    padding: 18px 36px;
+    width: 90%;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    box-shadow: 2px 2px 5px rgb(99, 97, 97);
+    margin-left: -35px;
+}
+
+.valor-des{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pedido-relative{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 45%;
+}
+
+.status-in_progress{
+    background-color: rgb(245, 44, 9);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.status-ok{
+    background-color: rgb(4, 251, 255);
+    padding: 5px 25px;
+    color: rgb(40, 35, 35);
+    border-radius: 10px;
+}
+
+.nav-user-status{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-user-pedido{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.decricao{
+    max-width: 50%;
+    text-align: justify;
+}

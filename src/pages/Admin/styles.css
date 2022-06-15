@@ -1,0 +1,103 @@
+.main_app_adms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+}
+.pagination{
+    display: flex;
+    margin-top: 25px;
+    padding: 0px;
+    margin-bottom: -5px;
+  }
+  .adms{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 3px 5px 1px rgb(62, 61, 60);
+    border-radius: 11px;  
+    margin-bottom: 10px;
+    padding: 18px 36px;
+    width: 80%;
+  }
+
+  .ul-adms{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-adms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -5px;
+    font-size: 1.3rem;
+  }
+
+
+  @media only screen and (max-width: 577px) {
+    .adms{
+      margin-bottom: 5px;
+      width: 130%;
+    }
+    .nav-adms{
+      margin-bottom: -5px;
+      font-size: 0.8rem;
+    }
+
+    .id{
+      width: 50%;
+    }
+    .cuscuz{
+      width: 80%;
+    }
+    .page-null h2{
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (min-width: 578px) and (max-width: 769px) {
+    .adms{
+      margin-bottom: 5px;
+      width: 130%;
+    }
+    .nav-adms{
+      margin-bottom: -5px;
+      font-size: 1rem;
+    }
+
+    .id{
+      width: 50%;
+    }
+    .cuscuz{
+      width: 80%;
+    }
+    .page-null h2{
+      font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .adms{
+    margin-bottom: 5px;
+    width: 110%;
+  }
+  .nav-adms{
+    margin-bottom: -5px;
+    font-size: 1rem;
+  }
+
+  .id{
+    width: 50%;
+  }
+
+  .cuscuz{
+    width: 70%;
+  }
+  .page-null h2{
+    font-size: 1.5rem;
+  }
+}
